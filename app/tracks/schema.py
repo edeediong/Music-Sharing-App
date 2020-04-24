@@ -3,7 +3,7 @@ from graphene_django import DjangoObjectType
 from .models import Track
 
 class TrackType(DjangoObjectType):
-    """Class that tells Graphene Django of the structure and structure of our Track3 models."""
+    """Class that tells Graphene Django of the structure and structure of our Track models."""
     class Meta:
         model = Track
 
